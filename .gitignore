@@ -1,0 +1,17 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyInstaller build files
+build/
+dist/
+*.spec
+
+# Keep shared_files folder but ignore its internal contents
+shared_files/*
+!shared_files/.gitkeep
+
+# IDE files
+.vscode/
+.idea/
